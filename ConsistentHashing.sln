@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DB Master", "db_master\db_m
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scheduler", "Scheduler\Scheduler.vcxitems", "{950E726D-7A47-4814-8C81-017C1DB0217A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DB Node", "DB Node\DB Node.vcxproj", "{10DB1C58-F595-49F8-AE85-13904880F0D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,6 +27,14 @@ Global
 		{546810B0-211A-42BE-A785-F61D8DF1065D}.Release|x64.Build.0 = Release|x64
 		{546810B0-211A-42BE-A785-F61D8DF1065D}.Release|x86.ActiveCfg = Release|Win32
 		{546810B0-211A-42BE-A785-F61D8DF1065D}.Release|x86.Build.0 = Release|Win32
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Debug|x64.ActiveCfg = Debug|x64
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Debug|x64.Build.0 = Debug|x64
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Debug|x86.Build.0 = Debug|Win32
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Release|x64.ActiveCfg = Release|x64
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Release|x64.Build.0 = Release|x64
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Release|x86.ActiveCfg = Release|Win32
+		{10DB1C58-F595-49F8-AE85-13904880F0D9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +44,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Network\Network.vcxitems*{0737e867-614e-4ed0-86c6-d34eaef4c349}*SharedItemsImports = 9
+		Network\Network.vcxitems*{10db1c58-f595-49f8-ae85-13904880f0d9}*SharedItemsImports = 4
+		Scheduler\Scheduler.vcxitems*{10db1c58-f595-49f8-ae85-13904880f0d9}*SharedItemsImports = 4
 		Network\Network.vcxitems*{546810b0-211a-42be-a785-f61d8df1065d}*SharedItemsImports = 4
 		Scheduler\Scheduler.vcxitems*{546810b0-211a-42be-a785-f61d8df1065d}*SharedItemsImports = 4
 		Scheduler\Scheduler.vcxitems*{950e726d-7a47-4814-8c81-017c1db0217a}*SharedItemsImports = 9
